@@ -4,7 +4,7 @@ import NavAuth from "../Auth/Nav";
 import { Link } from "react-router-dom";
 import LoginTab from "../Auth/Tabs/LoginTab";
 import { Image } from "../AbstractElements";
-import imgg from "../assets/images/logo/logo2.png";
+import imgg from "../assets/images/logo/mainlogo.png";
 
 const LoginSample = () => {
   const [selected, setSelected] = useState("simpleLogin");
@@ -24,7 +24,20 @@ const LoginSample = () => {
                   className="logo"
                   to={`${process.env.PUBLIC_URL}/dashboard/default`}
                 >
-                  <Image attrImage={{ src: `${imgg}`, alt: "" }} />
+                  <Image
+                    attrImage={{
+                      src: `${imgg}`,
+                      alt: "",
+                      width: "40px",
+                      height: "40px",
+                      style: {
+                        border: "1px solid #ccc",
+                        borderRadius: "50%",
+                        padding: "5px",
+                        backgroundColor: "#fff",
+                      },
+                    }}
+                  />
                 </Link>
               </div>
               <div className="login-main1 login-tab1 login-main">

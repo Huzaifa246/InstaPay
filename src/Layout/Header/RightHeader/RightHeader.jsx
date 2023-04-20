@@ -11,8 +11,8 @@ const RightHeader = () => {
   return (
     <div className="simple-list nav-right col-md-6 col-lg-4 col-xl-3 order-md-2 order-lg-1 p-0">
       <UL attrUL={{ className: "nav-menus" }}>
-        <DarkMode />
         <Notification active={active} setActive={setActive} />
+        <DarkMode />
         <Maximizes />
         <Language />
         <Users />

@@ -48,21 +48,6 @@ const LoginTab = () => {
       history(`${process.env.PUBLIC_URL}/dashboard/default`);
     }
   };
-  //   const requestOptions = {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: { email, password },
-  //   };
-  //   return fetch("/users/authenticate", requestOptions)
-  //     .then(handleResponse)
-  //     .then((user) => {
-  //       setValue(man);
-  //       setName("Emay Walter");
-  //       localStorage.setItem("token", Jwt_token);
-  //       history(`${process.env.PUBLIC_URL}/dashboard/default`);
-  //       return user;
-  //     });
-  // };
 
   return (
     <Form className="theme-form">

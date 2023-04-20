@@ -11,18 +11,26 @@ const SidebarLogo = () => {
     <>
       <Link
         to={`${process.env.PUBLIC_URL}/dashboard/default`}
-        style={{ fontSize: "1.5em", padding: "1em" }}
+        style={{
+          fontSize: "1.5em",
+          color: "white",
+          display: "flex",
+          alignItems: "center",
+          marginTop: "10px",
+        }}
       >
-        <Image
-          attrImage={{
-            className: "img-fluid for-light",
-            src: cubaimg,
-            alt: "",
-            width: "35px",
-            height: "35px",
-          }}
-        />
-        InstaPay
+        <div style={{ marginRight: "10px" }}>
+          <Image
+            attrImage={{
+              className: "img-fluid for-light",
+              src: cubaimg,
+              alt: "",
+              width: "30px",
+              height: "30px",
+            }}
+          />
+        </div>
+        <div>InstaPay</div>
       </Link>
       <div className="back-btn" onClick={() => setTogglSidebar(!togglSidebar)}>
         <Grid />

@@ -1,5 +1,5 @@
 import { employ } from "../../Data/Employe/Employ";
-import { Image } from "../../AbstractElements";
+import { H5, Image } from "../../AbstractElements";
 import { dynamicImage } from "../../Services";
 
 const TransactionStatusCardTableBody = () => {
@@ -15,6 +15,9 @@ const TransactionStatusCardTableBody = () => {
                   alt: "Image",
                 }}
               />
+              <div className="flex-grow-1">
+                <H5>{item.name}</H5>
+              </div>
             </div>
           </td>
           <td>{item.AccountNo}</td>
