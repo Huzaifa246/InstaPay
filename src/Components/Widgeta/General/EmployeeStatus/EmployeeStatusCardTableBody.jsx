@@ -46,17 +46,17 @@ const EmployeeStatusCardTableBody = () => {
           </td>
           <td>
             <ButtonGroup>
-              <Button size="sm">
+              <Button variant="outline">
                 <FaEye
                   style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
                 />
               </Button>
-              <Button size="sm">
+              <Button variant="outline">
                 <FaEdit
                   style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
                 />
               </Button>
-              <Button size="sm">
+              <Button variant="outline">
                 <FaTrash
                   style={{ color: "#f44336", boxShadow: "0 0 10px #f44336" }}
                 />
