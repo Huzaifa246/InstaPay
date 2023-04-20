@@ -81,11 +81,11 @@
     },
     {
         id: 6,
-        title: 'Tivo admin Design',
+        title: 'InstaPay admin Design',
         badge: 'Done',
         img: 'user/5.jpg',
         sites: 'Envato, australia',
-        desc: 'Tivo Admin is a full featured, multipurpose, premium bootstrap admin template.',
+        desc: 'InstaPay Admin is a full featured, multipurpose, premium bootstrap admin template.',
         issue: '40',
         resolved: '40',
         comment: '20',

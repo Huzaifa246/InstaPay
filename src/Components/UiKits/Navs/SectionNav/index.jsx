@@ -5,9 +5,9 @@ import { Btn, H5, LI, UL } from "../../../../AbstractElements";
 import HeaderCard from "../../../Common/Component/HeaderCard";
 
 const SectionNav = () => {
-    return (
-        <Fragment>
-            <Col lg="6">
+  return (
+    <Fragment>
+      {/* <Col lg="6">
                 <Card className="height-equal">
                     <HeaderCard title={'Section and Separator'} />
                     <CardBody>
@@ -52,9 +52,9 @@ const SectionNav = () => {
                         </div>
                     </CardBody>
                 </Card>
-            </Col>
-        </Fragment>
-    )
-}
+            </Col> */}
+    </Fragment>
+  );
+};
 
-export default SectionNav
+export default SectionNav;

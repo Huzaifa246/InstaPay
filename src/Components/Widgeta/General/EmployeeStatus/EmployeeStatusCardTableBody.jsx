@@ -1,6 +1,9 @@
 import { employ } from "../../../../Data/Employe/Employ";
 import { Image } from "../../../../AbstractElements";
 import { dynamicImage } from "../../../../Services";
+import { FaEye, FaEdit, FaTrash } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 const EmployeeStatusCardTableBody = () => {
   return (
@@ -41,7 +44,25 @@ const EmployeeStatusCardTableBody = () => {
               {item.color}
             </span>
           </td>
-          <td>{item.defaultCurrancy}</td>
+          <td>
+            <ButtonGroup>
+              <Button size="sm">
+                <FaEye
+                  style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
+                />
+              </Button>
+              <Button size="sm">
+                <FaEdit
+                  style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
+                />
+              </Button>
+              <Button size="sm">
+                <FaTrash
+                  style={{ color: "#f44336", boxShadow: "0 0 10px #f44336" }}
+                />
+              </Button>
+            </ButtonGroup>
+          </td>
         </tr>
       ))}
     </tbody>

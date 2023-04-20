@@ -5,7 +5,6 @@ import {
   Actions,
   Country,
   Currency,
-  Designation,
   Email,
   Name,
   Number,
@@ -33,7 +32,9 @@ const EmployeeStatus = () => {
                   <th scope="col">{Currency}</th>
                   <th scope="col">{SkillLevel}</th>
                   <th scope="col">{Status}</th>
-                  <th scope="col">{Actions}</th>
+                  <th scope="col" className="text-center">
+                    {Actions}
+                  </th>
                 </tr>
               </thead>
               <EmployeeStatusCardTableBody />

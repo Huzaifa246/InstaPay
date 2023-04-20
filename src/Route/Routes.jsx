@@ -1,6 +1,5 @@
 // dashbaord
 import Default from "../Components/Dashboard/Default/Default";
-import Ecommerce from "../Components/Dashboard/Ecommerce/Ecommerce";
 import General from "../Components/Widgeta/General";
 import Chart from "../Components/Widgeta/Chart";
 import Project from "../Components/Project";
@@ -134,10 +133,6 @@ export const routes = [
   {
     path: `${process.env.PUBLIC_URL}/dashboard/default`,
     Component: <Default />,
-  },
-  {
-    path: `${process.env.PUBLIC_URL}/dashboard/ecommerce`,
-    Component: <Ecommerce />,
   },
 
   //widgets

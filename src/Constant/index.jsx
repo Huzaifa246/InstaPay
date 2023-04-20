@@ -1391,7 +1391,7 @@ export const Discard = "Discard";
 
 // job search
 export const UIDesigner = "UI Designer";
-export const CreativeTelecom = "Tivo Telecom && Technologies";
+export const CreativeTelecom = "InstaPay Telecom && Technologies";
 
 export const PersonalDetails = "Personal Details";
 export const FullName = "Full Name";

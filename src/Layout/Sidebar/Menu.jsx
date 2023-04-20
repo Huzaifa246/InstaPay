@@ -25,23 +25,10 @@ export const MENU = [
     className: "menu-box",
     menu: [
       {
-        title: "Dashboards",
+        title: "Dashboard",
         icon: <Home />,
         class: "lan-3",
-        menu: [
-          {
-            title: "Default",
-            url: `${process.env.PUBLIC_URL}/dashboard/default`,
-            class: "lan-4",
-            type: "link",
-          },
-          {
-            title: "Ecommerce",
-            url: `${process.env.PUBLIC_URL}/dashboard/ecommerce`,
-            type: "link",
-            class: "lan-5",
-          },
-        ],
+        url: `${process.env.PUBLIC_URL}/dashboard/default`,
       },
     ],
   },
@@ -589,7 +576,7 @@ export const SEARCHMENU = [
     className: "menu-box",
     menu: [
       {
-        title: "Dashboards",
+        title: "Dashboard",
         icon: <Home />,
         class: "lan-3",
         menu: [
@@ -598,12 +585,6 @@ export const SEARCHMENU = [
             url: `${process.env.PUBLIC_URL}/dashboard/default`,
             class: "lan-4",
             type: "link",
-          },
-          {
-            title: "Ecommerce",
-            url: `${process.env.PUBLIC_URL}/dashboard/ecommerce`,
-            type: "link",
-            class: "lan-5",
           },
         ],
       },

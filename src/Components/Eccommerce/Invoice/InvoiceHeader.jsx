@@ -18,8 +18,8 @@ const InvoiceHeader = () => {
               </Link>
             </div>
             <Media body className="m-l-20 flex-grow-1">
-              <H4 attrH4={{ className: 'media-heading f-w-600' }}>Tivo</H4>
-              <P attrPara={{ className: 'mb-0' }}> hello@Tivo.in
+              <H4 attrH4={{ className: 'media-heading f-w-600' }}>InstaPay</H4>
+              <P attrPara={{ className: 'mb-0' }}> hello@InstaPay.in
                 <br />
                 <span>{'289-335-6503'}</span>
               </P>
