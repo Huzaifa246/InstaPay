@@ -1,4 +1,4 @@
-import { CardHeader, Row, Col } from "reactstrap";
+import { CardHeader, Row, Col, Container } from "reactstrap";
 import { H4 } from "../../AbstractElements";
 import { UserTransactions } from "../../Constant";
 import React, { useState } from "react";
@@ -7,6 +7,8 @@ import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
 import { Calendar } from "react-feather";
+import ColumnChartClass from "./../Charts/apexCharts/ColumnChart";
+import AreaChartClass from "./AreaChartClass";
 
 const TransactionStatusCardHeader = () => {
   const [state, setState] = useState({
@@ -26,10 +28,17 @@ const TransactionStatusCardHeader = () => {
 
   return (
     <CardHeader className="pb-0">
+      <Container fluid={true}>
+        <Row>
+          <ColumnChartClass />
+          <AreaChartClass />
+        </Row>
+      </Container>
       <Row className="align-items-center">
         <Col xs={12} md={6}>
           <H4>{UserTransactions}</H4>
         </Col>
+
         <Col xs={12} md={6} className="text-md-end text-center">
           <div
             className="btn btn-link p-0 date-range-picker-button position-relative d-flex align-items-end justify-content-end"

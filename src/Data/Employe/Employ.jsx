@@ -11,6 +11,8 @@ export const employ = [
     designation: "Designer",
     width: "30%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
   {
     id: 2,
@@ -24,6 +26,8 @@ export const employ = [
     designation: "Developer",
     width: "60%",
     color: "secondary",
+    Sent: "$66",
+    Recieved: "$88",
   },
   {
     id: 3,
@@ -37,6 +41,8 @@ export const employ = [
     designation: "Tester",
     width: "60%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
   {
     id: 4,
@@ -50,6 +56,8 @@ export const employ = [
     designation: "Designer",
     width: "30%",
     color: "secondary",
+    Sent: "$66",
+    Recieved: "$88",
   },
   {
     id: 5,
@@ -63,6 +71,8 @@ export const employ = [
     designation: "Designer",
     width: "100%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
   {
     id: 1,
@@ -76,6 +86,8 @@ export const employ = [
     designation: "Designer",
     width: "30%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
   {
     id: 2,
@@ -89,6 +101,8 @@ export const employ = [
     designation: "Developer",
     width: "60%",
     color: "secondary",
+    Sent: "$66",
+    Recieved: "$88",
   },
   {
     id: 3,
@@ -102,6 +116,8 @@ export const employ = [
     designation: "Tester",
     width: "60%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
   {
     id: 4,
@@ -115,6 +131,8 @@ export const employ = [
     designation: "Designer",
     width: "30%",
     color: "secondary",
+    Sent: "$66",
+    Recieved: "$88",
   },
   {
     id: 5,
@@ -128,5 +146,7 @@ export const employ = [
     designation: "Designer",
     width: "100%",
     color: "primary",
+    Sent: "$99",
+    Recieved: "$77",
   },
 ];

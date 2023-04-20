@@ -3,7 +3,7 @@ import { Form, FormGroup, Input, Label } from "reactstrap";
 import { Btn, H4, P } from "../../../AbstractElements";
 import { EmailAddress, Password, SignIn } from "../../../Constant";
 import { useNavigate } from "react-router-dom";
-import man from "../../../assets/images/login/login_bg.jpg";
+import man from "../../../assets/images/login/login_bg.png";
 
 import FormPassword from "./FormPassword";
 import axios from "axios";

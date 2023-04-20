@@ -131,6 +131,7 @@ export const Designation = "Designation";
 export const SkillLevel = "Skill Level";
 export const Experience = "Experience";
 export const Actions = "Actions";
+export const Recieved = "Recieved";
 
 export const UserTransactions = "User Transactions";
 
@@ -1095,9 +1096,9 @@ export const Middle = "Middle";
 export const Right = "Right";
 
 export const BasicAreaChart = "Basic Area Chart";
-export const AreaSpalineChart = "Area Spaline Chart";
+export const AmountPayed = "Amount Payed";
 export const BarChart = "Bar chart";
-export const ColumnChart = "Column Chart";
+export const ColumnChart = "Amount Sent";
 export const BubbleChart = "3d Bubble Chart";
 export const SteplineChart = "Stepline Chart";
 export const PieChart = "Pie Chart";

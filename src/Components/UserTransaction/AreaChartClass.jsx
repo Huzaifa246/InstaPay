@@ -1,10 +1,10 @@
 import Chart from "react-apexcharts";
 import { Card, CardBody, Col } from "reactstrap";
-import { AmountPayed } from "../../../Constant/index";
-import { areaSpaline } from "./apexData";
-import HeadingCommon from "../../../Common/Component/HeadingCommon";
+import { AmountPayed } from "../../Constant/index";
+import { areaSpalineTransaction } from "./apexDataTransaction";
+import HeadingCommon from "../../Common/Component/HeadingCommon";
 
-const AreaSpalineChartClass = () => {
+const AreaChartClass = () => {
   return (
     <Col sm="12" xl="6" className="box-col-6">
       <Card>
@@ -12,8 +12,8 @@ const AreaSpalineChartClass = () => {
         <CardBody className="pt-0">
           <div id="basic-apex">
             <Chart
-              options={areaSpaline.options}
-              series={areaSpaline.series}
+              options={areaSpalineTransaction.options}
+              series={areaSpalineTransaction.series}
               height="350"
               type="area"
             />
@@ -24,4 +24,4 @@ const AreaSpalineChartClass = () => {
   );
 };
 
-export default AreaSpalineChartClass;
+export default AreaChartClass;

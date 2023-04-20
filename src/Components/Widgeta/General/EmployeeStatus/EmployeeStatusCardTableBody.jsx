@@ -2,8 +2,6 @@ import { employ } from "../../../../Data/Employe/Employ";
 import { H5, Image } from "../../../../AbstractElements";
 import { dynamicImage } from "../../../../Services";
 
-import Button from "react-bootstrap/Button";
-
 const EmployeeStatusCardTableBody = () => {
   return (
     <tbody className="table-responsive">
@@ -46,19 +44,28 @@ const EmployeeStatusCardTableBody = () => {
               {item.color}
             </span>
           </td>
-          <td style={{ display: "flex", justifyContent: "space-around" }}>
+          <td style={{ display: "flex", justifyContent: "center" }}>
             <i
               className="fa fa-eye"
               variant="outline"
-              style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
+              style={{
+                color: "#00bcd4",
+                margin: "5px",
+              }}
             ></i>
             <i
               className="fa fa-edit"
-              style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
+              style={{
+                color: "#ffc107",
+                margin: "5px",
+              }}
             ></i>
             <i
               className="fa fa-trash-o"
-              style={{ color: "#f44336", boxShadow: "0 0 10px #f44336" }}
+              style={{
+                color: "#f44336",
+                margin: "5px",
+              }}
             ></i>
           </td>
         </tr>

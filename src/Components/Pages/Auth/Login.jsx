@@ -5,7 +5,7 @@ import AuthTab from "../../../Auth/Tabs/AuthTab";
 import { Image } from "../../../AbstractElements";
 import { Link } from "react-router-dom";
 import LoginTab from "../../../Auth/Tabs/LoginTab";
-import imgg from "../../../assets/images/login/login_bg.jpg";
+import imgg from "../../../assets/images/login/login_bg.png";
 import { dynamicImage } from "../../../Services";
 
 const LoginSample = () => {

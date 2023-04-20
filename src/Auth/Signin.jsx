@@ -4,7 +4,7 @@ import NavAuth from "../Auth/Nav";
 import { Link } from "react-router-dom";
 import LoginTab from "../Auth/Tabs/LoginTab";
 import { Image } from "../AbstractElements";
-import imgg from "../assets/images/logo/mainlogo.png";
+import imgg from "../assets/images/login/LogoWhite.png";
 
 const LoginSample = () => {
   const [selected, setSelected] = useState("simpleLogin");
@@ -29,13 +29,7 @@ const LoginSample = () => {
                       src: `${imgg}`,
                       alt: "",
                       width: "40px",
-                      height: "40px",
-                      style: {
-                        border: "1px solid #ccc",
-                        borderRadius: "50%",
-                        padding: "5px",
-                        backgroundColor: "#fff",
-                      },
+                      height: "45px",
                     }}
                   />
                 </Link>
