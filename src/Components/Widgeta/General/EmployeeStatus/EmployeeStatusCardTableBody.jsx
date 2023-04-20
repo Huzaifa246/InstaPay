@@ -47,24 +47,19 @@ const EmployeeStatusCardTableBody = () => {
             </span>
           </td>
           <td style={{ display: "flex", justifyContent: "space-around" }}>
-            <Button variant="outline">
-              <i
-                className="fa fa-eye"
-                style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
-              ></i>
-            </Button>
-            <Button variant="outline">
-              <i
-                className="fa fa-edit"
-                style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
-              ></i>
-            </Button>
-            <Button variant="outline">
-              <i
-                className="fa fa-trash-o"
-                style={{ color: "#f44336", boxShadow: "0 0 10px #f44336" }}
-              ></i>
-            </Button>
+            <i
+              className="fa fa-eye"
+              variant="outline"
+              style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
+            ></i>
+            <i
+              className="fa fa-edit"
+              style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
+            ></i>
+            <i
+              className="fa fa-trash-o"
+              style={{ color: "#f44336", boxShadow: "0 0 10px #f44336" }}
+            ></i>
           </td>
         </tr>
       ))}
