@@ -56,7 +56,7 @@ const EmployeeStatusCardTableBody = () => {
             <Button variant="outline">
               <i
                 className="fa fa-edit"
-                style={{ color: "#00bcd4", boxShadow: "0 0 10px #00bcd4" }}
+                style={{ color: "#ffc107", boxShadow: "0 0 10px #ffc107" }}
               ></i>
             </Button>
             <Button variant="outline">
