@@ -7,7 +7,7 @@ import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
 import { Calendar } from "react-feather";
-import ColumnChartClass from "./../Charts/apexCharts/ColumnChart";
+import ColumnChartClass from "./ColumnChartClass";
 import AreaChartClass from "./AreaChartClass";
 
 const TransactionStatusCardHeader = () => {

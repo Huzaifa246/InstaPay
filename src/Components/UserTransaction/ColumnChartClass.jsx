@@ -1,8 +1,8 @@
 import Chart from "react-apexcharts";
 import { Card, CardBody, Col } from "reactstrap";
-import { ColumnChart } from "../../../Constant/index";
+import { ColumnChart } from "../../Constant/index";
 import { apexDataTransaction } from "./apexDataTransaction";
-import HeadingCommon from "../../../Common/Component/HeadingCommon";
+import HeadingCommon from "../../Common/Component/HeadingCommon";
 
 const ColumnChartClass = () => {
   return (

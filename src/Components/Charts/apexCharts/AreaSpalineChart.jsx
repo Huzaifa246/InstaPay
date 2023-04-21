@@ -8,7 +8,7 @@ const AreaSpalineChartClass = () => {
   return (
     <Col sm="12" xl="6" className="box-col-6">
       <Card>
-        <HeadingCommon Heading={AmountPayed} />
+        {/* <HeadingCommon Heading={AmountPayed} /> */}
         <CardBody className="pt-0">
           <div id="basic-apex">
             <Chart

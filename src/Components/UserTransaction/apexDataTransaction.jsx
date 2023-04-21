@@ -1,4 +1,5 @@
 import configDB from "../../Config/ThemeConfig";
+import { Danger } from "../../Constant";
 
 const primary =
   localStorage.getItem("default_color") || configDB.data.color.primary_color;
@@ -10,11 +11,11 @@ export const apexDataTransaction = {
   series: [
     {
       name: "Average Daily Sent",
-      data: [40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+      data: [60, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
     },
     {
       name: "Per Month Revenue",
-      data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 100, 50],
+      data: [99, 76, 85, 101, 98, 87, 105, 91, 114, 94, 100, 50],
     },
   ],
   options: {
@@ -28,21 +29,22 @@ export const apexDataTransaction = {
     plotOptions: {
       bar: {
         horizontal: false,
-        columnWidth: "55%",
+        columnWidth: "100%",
         endingShape: "rounded",
       },
     },
     dataLabels: {
-      enabled: false,
+      enabled: true,
     },
     colors: [primary, secondary],
     stroke: {
       show: true,
-      width: 3,
+      width: 4,
       colors: ["transparent"],
     },
     xaxis: {
       categories: [
+        "Jan",
         "Feb",
         "Mar",
         "Apr",
@@ -58,13 +60,13 @@ export const apexDataTransaction = {
     },
     yaxis: {
       title: {
-        text: "$ (thousands)",
+        text: "$ Dollars",
       },
     },
     grid: {
       xaxis: {
         lines: {
-          show: false,
+          show: true,
         },
       },
     },
@@ -74,22 +76,23 @@ export const apexDataTransaction = {
     tooltip: {
       y: {
         formatter: function (val) {
-          return "$ " + val + " thousands";
+          return "$ " + val + " Dollars";
         },
       },
     },
   },
 };
 
+// -----
 export const areaSpalineTransaction = {
   series: [
     {
-      name: "series1",
-      data: [31, 40, 28, 51, 42, 109, 100],
+      name: "Amount Sent",
+      data: [31, 40, 200, 28, 51, 42, 109, 100, 31, 40, 200, 55],
     },
     {
-      name: "series2",
-      data: [11, 32, 45, 32, 34, 52, 41],
+      name: "Amount Recieved",
+      data: [11, 32, 45, 150, 32, 34, 52, 41, 55, 100, 62, 34],
     },
   ],
   options: {
@@ -97,11 +100,11 @@ export const areaSpalineTransaction = {
       height: 350,
       type: "area",
       toolbar: {
-        show: false,
+        show: true,
       },
     },
     dataLabels: {
-      enabled: false,
+      enabled: true,
     },
     colors: [primary, secondary],
     stroke: {
@@ -110,20 +113,25 @@ export const areaSpalineTransaction = {
     grid: {
       xaxis: {
         lines: {
-          show: false,
+          show: true,
         },
       },
     },
     xaxis: {
       type: "datetime",
       categories: [
-        "2023-09-19T00:00:00.000Z",
-        "2023-09-19T01:30:00.000Z",
-        "2023-09-19T02:30:00.000Z",
-        "2023-09-19T03:30:00.000Z",
-        "2023-09-19T04:30:00.000Z",
-        "2023-09-19T05:30:00.000Z",
-        "2023-09-19T06:30:00.000Z",
+        "2023-01-10",
+        "2023-02-20",
+        "2023-03-10",
+        "2023-04-20",
+        "2023-05-10",
+        "2023-06-20",
+        "2023-07-15",
+        "2023-08-20",
+        "2023-09-10",
+        "2023-10-21",
+        "2023-11-10",
+        "2023-12-20",
       ],
     },
     tooltip: {
@@ -131,39 +139,5 @@ export const areaSpalineTransaction = {
         format: "dd/MM/yy HH:mm",
       },
     },
-  },
-};
-
-// Apex Basic Area chart
-
-const series = {
-  monthDataSeries1: {
-    prices: [
-      8107.85, 8128.0, 8122.9, 8165.5, 8340.7, 8423.7, 8423.5, 8514.3, 8481.85,
-      8487.7, 8506.9, 8626.2, 8668.95, 8602.3, 8607.55, 8512.9, 8496.25,
-      8600.65, 8881.1, 9340.85,
-    ],
-    dates: [
-      "13 Nov 2017",
-      "14 Nov 2017",
-      "15 Nov 2017",
-      "16 Nov 2017",
-      "17 Nov 2017",
-      "20 Nov 2017",
-      "21 Nov 2017",
-      "22 Nov 2017",
-      "23 Nov 2017",
-      "24 Nov 2017",
-      "27 Nov 2017",
-      "28 Nov 2017",
-      "29 Nov 2017",
-      "30 Nov 2017",
-      "01 Dec 2017",
-      "04 Dec 2017",
-      "05 Dec 2017",
-      "06 Dec 2017",
-      "07 Dec 2017",
-      "08 Dec 2017",
-    ],
   },
 };
