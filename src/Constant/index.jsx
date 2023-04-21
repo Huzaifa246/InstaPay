@@ -126,6 +126,7 @@ export const MAX = 950;
 export const User_Status = "User Status";
 export const Account_Number = "Account Number";
 export const Name = "Name";
+export const Beneficiary_Name = "Beneficiary";
 export const Browser = "Browser";
 export const Designation = "Designation";
 export const SkillLevel = "Skill Level";

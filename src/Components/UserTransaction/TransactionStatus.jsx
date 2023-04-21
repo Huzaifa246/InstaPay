@@ -3,8 +3,7 @@ import TransactionStatusCardHeader from "./TransactionStatusCardHeader";
 import {
   Account_Number,
   Currency,
-  Designation,
-  Name,
+  Beneficiary_Name,
   Status,
   Recieved,
   Sent,
@@ -23,7 +22,7 @@ const TransactionStatus = () => {
             <Table className="table-bordernone">
               <thead>
                 <tr>
-                  <th scope="col">{Name}</th>
+                  <th scope="col">{Beneficiary_Name}</th>
                   <th scope="col">{Account_Number}</th>
                   <th scope="col">{Sent}</th>
                   <th scope="col">{Recieved}</th>
