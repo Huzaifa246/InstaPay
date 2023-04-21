@@ -27,6 +27,7 @@ const LoginSample = () => {
               backgroundSize: "cover",
               backgroundPosition: "center",
               height: "100vh",
+              width: "100%",
             }}
           >
             <div>
