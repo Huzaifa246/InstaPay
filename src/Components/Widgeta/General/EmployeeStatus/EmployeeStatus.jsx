@@ -8,7 +8,7 @@ import {
   Email,
   Name,
   Number,
-  SkillLevel,
+  Kyc,
   Status,
 } from "../../../../Constant";
 import EmployeeStatusCardTableBody from "./EmployeeStatusCardTableBody";
@@ -30,7 +30,7 @@ const EmployeeStatus = () => {
                   <th scope="col">{Number}</th>
                   <th scope="col">{Country}</th>
                   <th scope="col">{Currency}</th>
-                  <th scope="col">{SkillLevel}</th>
+                  <th scope="col">{Kyc}</th>
                   <th scope="col">{Status}</th>
                   <th scope="col" className="text-center">
                     {Actions}

@@ -1,6 +1,6 @@
 import Chart from "react-apexcharts";
 import { Card, CardBody, Col } from "reactstrap";
-import { AmountPayed } from "../../Constant/index";
+import { Transaction_Vol } from "../../Constant/index";
 import { areaSpalineTransaction } from "./apexDataTransaction";
 import HeadingCommon from "../../Common/Component/HeadingCommon";
 
@@ -8,7 +8,7 @@ const AreaChartClass = () => {
   return (
     <Col sm="12" xl="6" className="box-col-6">
       <Card>
-        <HeadingCommon Heading={AmountPayed} />
+        <HeadingCommon Heading={Transaction_Vol} />
         <CardBody className="pt-0">
           <div id="basic-apex">
             <Chart

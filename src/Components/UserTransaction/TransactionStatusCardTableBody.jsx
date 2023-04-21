@@ -26,8 +26,16 @@ const TransactionStatusCardTableBody = () => {
           <td>{item.phone}</td>
           <td>{item.country}</td>
           <td>
-            <span className={`badge badge-light-${item.color}`}>
-              {item.color}
+            <span
+              style={{
+                backgroundColor: `${item.color}`,
+                padding: "5px",
+                borderRadius: "5px",
+                color: "white",
+                alignContent: "start",
+              }}
+            >
+              {item.status}
             </span>
           </td>
         </tr>

@@ -40,8 +40,8 @@ const EmployeeStatusCardTableBody = () => {
             </div>
           </td>
           <td>
-            <span className={`badge badge-light-${item.color}`}>
-              {item.color}
+            <span className={`badge badge-light-${item.employcolor}`}>
+              {item.employcolor}
             </span>
           </td>
           <td style={{ display: "flex", justifyContent: "center" }}>
