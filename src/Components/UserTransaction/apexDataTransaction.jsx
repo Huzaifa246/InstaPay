@@ -1,12 +1,3 @@
-import configDB from "../../Config/ThemeConfig";
-import { Danger } from "../../Constant";
-
-const primary =
-  localStorage.getItem("default_color") || configDB.data.color.primary_color;
-const secondary =
-  localStorage.getItem("secondary_color") ||
-  configDB.data.color.secondary_color;
-
 export const apexDataTransaction = {
   series: [
     {
