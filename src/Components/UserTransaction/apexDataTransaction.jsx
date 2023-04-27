@@ -61,8 +61,14 @@ export const apexDataTransaction = {
     grid: {
       xaxis: {
         lines: {
-          show: true,
+          show: false,
         },
+      },
+      axisBorder: {
+        show: false,
+      },
+      axisTicks: {
+        show: false,
       },
     },
     fill: {
@@ -112,7 +118,7 @@ export const areaSpalineTransaction = {
     grid: {
       xaxis: {
         lines: {
-          show: true,
+          show: false,
         },
       },
     },

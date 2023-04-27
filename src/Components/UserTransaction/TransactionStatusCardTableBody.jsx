@@ -4,7 +4,7 @@ import { dynamicImage } from "../../Services";
 
 const TransactionStatusCardTableBody = () => {
   return (
-    <tbody>
+    <tbody className="table-responsive">
       {employ.map((item, id) => (
         <tr key={id}>
           <td>
@@ -21,7 +21,6 @@ const TransactionStatusCardTableBody = () => {
             </div>
           </td>
           <td>{item.AccountNo}</td>
-          {/* <td>{item.Sent}</td> */}
           <td>{item.type}</td>
           <td>{item.phone}</td>
           <td>{item.country}</td>
@@ -33,7 +32,6 @@ const TransactionStatusCardTableBody = () => {
                 padding: "5px",
                 borderRadius: "5px",
                 color: "white",
-                alignContent: "center",
               }}
             >
               {item.status}
