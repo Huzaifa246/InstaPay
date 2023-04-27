@@ -9,7 +9,7 @@ import Maximizes from "./Maximize";
 const RightHeader = () => {
   const [active, setActive] = useState();
   return (
-    <div className="simple-list nav-right col-md-6 col-lg-4 col-xl-3 order-md-2 order-lg-1 p-0">
+    <div className="simple-list nav-right col-md-6 col-lg-4 col-xl-3 order-md-2 order-lg-1 p-0 ">
       <UL attrUL={{ className: "nav-menus" }}>
         <Notification active={active} setActive={setActive} />
         <DarkMode />

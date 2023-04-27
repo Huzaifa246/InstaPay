@@ -1,15 +1,15 @@
 export const apexDataTransaction = {
   series: [
     {
-      name: "Sent Amount",
+      name: "Transaction In",
       data: [30, 40, 50, 60, 30, 80, 90, 100, 110, 120, 130, 140],
     },
     {
-      name: "Recieved Amount",
+      name: "Transaction Out",
       data: [99, 76, 85, 101, 48, 87, 55, 91, 114, 94, 100, 50],
     },
     {
-      name: "Total Amount",
+      name: "Total Transaction",
       data: [120, 100, 185, 200, 98, 99, 105, 91, 114, 210, 100, 150],
     },
   ],
@@ -55,7 +55,7 @@ export const apexDataTransaction = {
     },
     yaxis: {
       title: {
-        text: "$ Dollars",
+        // text: "$ Dollars",
       },
     },
     grid: {
@@ -79,6 +79,39 @@ export const apexDataTransaction = {
         formatter: function (val) {
           return "$ " + val + " Dollars";
         },
+      },
+    },
+    legend: {
+      show: true,
+      position: "top",
+      horizontalAlign: "right",
+      fontSize: "8px",
+      fontFamily: "Inter",
+      offsetY: -10,
+      markers: {
+        width: 8,
+        height: 8,
+        offsetY: 0,
+        offsetX: 0,
+        radius: 5,
+      },
+      itemMargin: {
+        horizontal: 3,
+        vertical: 0,
+      },
+      labels: {
+        useSeriesColors: false,
+      },
+    },
+    title: {
+      text: "Number of Transactions",
+      align: "left",
+      offsetY: 9,
+      style: {
+        fontSize: "15px",
+        fontWeight: 900,
+        color: "#263238",
+        margin: "0",
       },
     },
   },
@@ -142,6 +175,39 @@ export const areaSpalineTransaction = {
     tooltip: {
       x: {
         format: "dd/MM/yy HH:mm",
+      },
+    },
+    legend: {
+      show: true,
+      position: "top",
+      horizontalAlign: "right",
+      fontSize: "8px",
+      fontFamily: "Inter",
+      offsetY: -10,
+      markers: {
+        width: 8,
+        height: 8,
+        offsetY: 0,
+        offsetX: 0,
+        radius: 5,
+      },
+      itemMargin: {
+        horizontal: 3,
+        vertical: 0,
+      },
+      labels: {
+        useSeriesColors: false,
+      },
+    },
+    title: {
+      text: "Volume of Transactions",
+      align: "left",
+      offsetY: 9,
+      style: {
+        fontSize: "15px",
+        fontWeight: 900,
+        color: "#263238",
+        margin: "0",
       },
     },
   },
