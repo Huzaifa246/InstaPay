@@ -28,7 +28,7 @@ const TransactionStatusCardHeader = () => {
 
   return (
     <CardHeader className="pb-0">
-      <Container fluid={true}>
+      <Container>
         <Row>
           <ColumnChartClass />
           <AreaChartClass />

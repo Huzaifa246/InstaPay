@@ -21,7 +21,7 @@ const TransactionStatusCardTableBody = () => {
             </div>
           </td>
           <td>{item.AccountNo}</td>
-          <td>{item.Sent}</td>
+          {/* <td>{item.Sent}</td> */}
           <td>{item.type}</td>
           <td>{item.phone}</td>
           <td>{item.country}</td>

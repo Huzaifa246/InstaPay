@@ -25,7 +25,7 @@ const TransactionStatus = () => {
                 <tr>
                   <th scope="col">{Beneficiary_Name}</th>
                   <th scope="col">{Account_Number}</th>
-                  <th scope="col">{Sent}</th>
+                  {/* <th scope="col">{Sent}</th> */}
                   <th scope="col">{Type}</th>
                   <th scope="col">{Number}</th>
                   <th scope="col">{Currency}</th>
