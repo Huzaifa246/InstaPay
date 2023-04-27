@@ -87,7 +87,7 @@ export const apexDataTransaction = {
       horizontalAlign: "right",
       fontSize: "8px",
       fontFamily: "Inter",
-      offsetY: -10,
+      offsetY: -30,
       markers: {
         width: 8,
         height: 8,
@@ -183,7 +183,7 @@ export const areaSpalineTransaction = {
       horizontalAlign: "right",
       fontSize: "8px",
       fontFamily: "Inter",
-      offsetY: -10,
+      offsetY: -30,
       markers: {
         width: 8,
         height: 8,
