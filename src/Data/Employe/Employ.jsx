@@ -14,7 +14,8 @@ export const employ = [
     color: "#4caf50",
     status: "Completed",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 2,
@@ -31,7 +32,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Pending",
     Sent: "$66",
-    Recieved: "$88",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 3,
@@ -49,7 +51,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Cancelled",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 4,
@@ -66,7 +69,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Pending",
     Sent: "$66",
-    Recieved: "$88",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 5,
@@ -83,7 +87,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Cancelled",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 1,
@@ -100,7 +105,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Cancelled",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 2,
@@ -117,7 +123,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Pending",
     Sent: "$66",
-    Recieved: "$88",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 3,
@@ -134,7 +141,8 @@ export const employ = [
     color: "#4caf50",
     status: "Completed",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 4,
@@ -151,7 +159,8 @@ export const employ = [
     employcolor: "secondary",
     status: "Pending",
     Sent: "$66",
-    Recieved: "$88",
+    type: "Recieved",
+    amount: "$99",
   },
   {
     id: 5,
@@ -168,6 +177,7 @@ export const employ = [
     color: "#4caf50",
     status: "Completed",
     Sent: "$99",
-    Recieved: "$77",
+    type: "Recieved",
+    amount: "$99",
   },
 ];

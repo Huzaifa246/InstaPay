@@ -22,9 +22,10 @@ const TransactionStatusCardTableBody = () => {
           </td>
           <td>{item.AccountNo}</td>
           <td>{item.Sent}</td>
-          <td>{item.Recieved}</td>
+          <td>{item.type}</td>
           <td>{item.phone}</td>
           <td>{item.country}</td>
+          <td>{item.amount}</td>
           <td>
             <span
               style={{
@@ -32,7 +33,7 @@ const TransactionStatusCardTableBody = () => {
                 padding: "5px",
                 borderRadius: "5px",
                 color: "white",
-                alignContent: "start",
+                alignContent: "center",
               }}
             >
               {item.status}

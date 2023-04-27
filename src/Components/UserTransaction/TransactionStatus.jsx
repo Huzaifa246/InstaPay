@@ -5,8 +5,9 @@ import {
   Currency,
   Beneficiary_Name,
   Status,
-  Recieved,
+  Type,
   Sent,
+  amount,
 } from "../../Constant";
 import CenterAlignedPagination from "./../BonusUi/Pagination/PaganationsAlignment/CenterAlignedPagination";
 import TransactionStatusCardTableBody from "./TransactionStatusCardTableBody";
@@ -25,9 +26,10 @@ const TransactionStatus = () => {
                   <th scope="col">{Beneficiary_Name}</th>
                   <th scope="col">{Account_Number}</th>
                   <th scope="col">{Sent}</th>
-                  <th scope="col">{Recieved}</th>
+                  <th scope="col">{Type}</th>
                   <th scope="col">{Number}</th>
                   <th scope="col">{Currency}</th>
+                  <th scope="col">{amount}</th>
                   <th scope="col">{Status}</th>
                 </tr>
               </thead>

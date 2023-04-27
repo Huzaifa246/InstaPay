@@ -126,14 +126,15 @@ export const MAX = 950;
 export const User_Status = "User Status";
 export const Account_Number = "Account Number";
 export const Name = "Name";
-export const Beneficiary_Name = "Beneficiary";
+export const Beneficiary_Name = "Name";
 export const Browser = "Browser";
 export const Designation = "Designation";
 export const SkillLevel = "Skill Level";
 export const Kyc = "KYC Level";
 export const Experience = "Experience";
 export const Actions = "Actions";
-export const Recieved = "Recieved";
+export const TransType = "Type";
+export const amount = "Amount";
 
 export const UserTransactions = "User Transactions";
 
@@ -1162,7 +1163,7 @@ export const ExampleTextarea = "Example textarea";
 export const BasicHTMLInputControl = "Basic HTML input control";
 export const SimpleInput = "Simple Input";
 export const Placeholder = "Placeholder";
-export const Number = "Number";
+export const Number = "Transaction Id";
 export const Telephone = "Telephone";
 export const URL = "URL";
 export const DateAndTime = "Date and time";
